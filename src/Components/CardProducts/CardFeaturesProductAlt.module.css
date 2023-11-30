@@ -1,0 +1,69 @@
+.card {
+  width: 18.75rem;
+  height: 28rem;
+  background-color: var(--clr-0);
+  border: 2px solid var(--clr-4-B);
+}
+.card:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+.img {
+  width: 15rem;
+  height: auto;
+  margin: 2rem;
+  overflow: hidden;
+}
+.title {
+  color: var(--clr-10);
+  margin: 0 0.7rem;
+}
+.price {
+  font-weight: bold;
+  color: var(--clr-10);
+  font-size: 1.5rem;
+}
+.cardPrice {
+  width: 100%;
+}
+.hr {
+  width: 80%;
+  height: 3px;
+  border: none;
+  margin: auto;
+  background-color: var(--clr-8);
+}
+
+.addCart {
+  font-size: 1.2rem;
+  color: var(--clr-4-R);
+}
+.addCart:hover {
+  color: var(--clr-0);
+  border-radius: 50%;
+  background-color: var(--clr-9-R);
+  transform: scale(1.05);
+}
+.discountContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.desc {
+  width: 7rem;
+  color: var(--clr-0);
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: var(--clr-4-B);
+}
+.divDisc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.discount {
+  font-size: 1rem;
+  color: red;
+  text-decoration: line-through 1px;
+  opacity: 0.7;
+}

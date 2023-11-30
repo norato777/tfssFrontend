@@ -1,0 +1,25 @@
+.containerSearch {
+  display: flex;
+  width: 21rem;
+  position: relative;
+  box-sizing: border-box;
+}
+.input {
+  width: 100%;
+  height: 2.5rem;
+  color: var(--clr-10);
+  border: 1px solid var(--clr-4-B);
+  padding-left: 1rem;
+}
+.button {
+  width: 2.5rem;
+  height: 2.5rem;
+  color: var(--clr-0);
+  background-color: var(--clr-4-B);
+  border: 1px solid var(--clr-4-B);
+}
+.button:hover {
+  color: var(--clr-0);
+  background-color: var(--clr-7-B);
+  border: 1px solid var(--clr-7-B);
+}

@@ -1,0 +1,18 @@
+.user {
+  font-size: 2rem;
+  border: none;
+  color: var(--clr-4-B);
+  margin: 0 1rem;
+}
+.user:hover {
+  color: var(--clr-7-B);
+}
+.contButon {
+  display: flex;
+}
+.butonA {
+  border: none;
+  font-size: 17px;
+  color: var(--clr-4-B);
+  margin-right: 10px;
+}

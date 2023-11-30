@@ -1,0 +1,30 @@
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14.375rem;
+  height: 14.375rem;
+  border-radius: 5%;
+  border: solid 0.25rem var(--clr-4-B);
+  overflow: hidden;
+  background-color: var(--clr-0);
+  cursor: pointer;
+}
+.card:hover {
+  border: solid 0.25rem var(--clr-7-B);
+}
+.img {
+  width: 200px;
+  background-position: center;
+}
+.h5 {
+  margin-top: 15px;
+  color: var(--clr-0);
+  font-weight: 700;
+}

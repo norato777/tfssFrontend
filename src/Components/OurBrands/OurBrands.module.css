@@ -1,0 +1,14 @@
+.containerBrands {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--clr-3);
+  border: 2px solid var(--clr-4-B);
+}
+.img {
+  width: 13rem;
+  margin: 10px;
+  cursor: pointer;
+}

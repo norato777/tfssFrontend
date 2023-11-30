@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: var(--clr-9-B);
+  color: white;
+}
+.h3 {
+  font-style: oblique;
+  margin-bottom: -5px;
+  color: white;
+}
+.span {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: -5px;
+}
+.icon {
+  font-size: 2rem;
+}
+
+@media (max-width: 414px) {
+  .h3,
+  .span {
+    font-size: 0.8rem;
+  }
+  .icon {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 415px) and (max-width: 1023px) {
+  .h3,
+  .span {
+    font-size: 1rem;
+  }
+  .icon {
+    font-size: 1.7rem;
+  }
+}
